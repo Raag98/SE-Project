@@ -1,0 +1,60 @@
+.body {
+  display: flex;
+
+  .left,
+  .right,
+  .overview {
+    width: 50%;
+    min-height: 100vh;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      margin: 0 0 20px;
+    }
+
+    p {
+      font-size: 14px;
+      color: var(--text-grey);
+    }
+
+    .blocks {
+      a {
+        .login_block {
+          display: block;
+          width: 100%;
+          margin: 20px 0;
+          padding: 20px 40px;
+          border: 1px solid var(--border-color);
+
+          h6 {
+            margin-top: 5px;
+            color: var(--text-grey);
+          }
+        }
+
+        &:hover {
+          .login_block {
+            border-color: var(--primary-color);
+
+            h3,
+            h6 {
+              color: var(--primary-color);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .right {
+    background-image: url("https://www.gpstrategies.com/wp-content/uploads/2020/11/Video-Achieving-Success-in-Your-Oracle-UPK-Migration-Ado_267735643-scaled.jpeghttps: //www.gpstrategies.com/wp-content/uploads/2020/11/Video-Achieving-Success-in-Your-Oracle-UPK-Migration-Ado_267735643-scaled.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

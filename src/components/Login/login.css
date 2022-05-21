@@ -1,0 +1,152 @@
+@forward "index.scss";
+.body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body .section {
+  height: 100%;
+  overflow: hidden;
+}
+
+.body .main {
+  width: 35%;
+  background: white;
+  padding: 60px 80px;
+}
+
+.body .main .main-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.body .main .main-data .icon {
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
+.body .main .main-data .icon a {
+  color: var(--primary-color);
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.body .main .main-data .main-data-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  color: var(--text-grey-color);
+}
+
+.body .main .main-data .main-data-footer a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.body .main .main-data .form {
+  width: 100%;
+}
+
+.body .main .main-data .form .form-info {
+  color: var(--text-grey-color);
+  letter-spacing: 2px;
+  line-height: 22px;
+}
+
+.body .main .main-data .form .form-info span {
+  font-weight: bold;
+}
+
+.body .main .main-data .form form input[type="text"],
+.body .main .main-data .form form input[type="email"],
+.body .main .main-data .form form input[type="password"] {
+  padding: 16px;
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-grey-color);
+  border-radius: 0.25em;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.body .main .main-data .form form input.icon-input {
+  padding-left: 54px !important;
+}
+
+.body .main .main-data .form form .email {
+  background: url(./email-icon.svg) no-repeat 16px center;
+}
+
+.body .main .main-data .form form .password,
+.body .main .main-data .form form .name {
+  background: url(./user-icon.svg) no-repeat 16px center;
+}
+
+.body .main .main-data .form form input[type="button"] {
+  border: none;
+  background: var(--primary-color);
+  border-radius: 0.25em;
+  padding: 16px 20px;
+  color: #ffffff;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.body .main .main-data .form form .forgot-password {
+  color: var(--text-grey-color);
+  float: left;
+  text-decoration: none;
+  padding: 18px 0;
+}
+
+.body .bg {
+  width: 65%;
+  padding: 40px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/bg.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./bg.jpeg);
+  background-size: cover;
+}
+
+.body .bg .bg-data h1 {
+  color: white;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 2px;
+}
+
+.body .bg .bg-data p {
+  color: white;
+}
+/*# sourceMappingURL=login.css.map */

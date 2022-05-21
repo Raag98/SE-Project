@@ -1,0 +1,32 @@
+html {
+  --color: 74, 83%, 40%;
+  --primary-color: hsl(var(--color));
+  --secondary-color: hsl(var(--color), 0.1);
+  --bg-grey-color: #ffffff;
+  --border-color: #eeeeef;
+  --text-black: black;
+  --text-grey: grey;
+}
+
+body,
+body::after,
+body::before {
+  font-family: "Noto Sans", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: var(--text-black);
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow: hidden;
+}
+/*# sourceMappingURL=index.css.map */

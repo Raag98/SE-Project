@@ -1,0 +1,65 @@
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body .left,
+.body .right .overview {
+  width: 50%;
+  min-height: 100vh;
+}
+
+.body .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.body .left h1 {
+  margin: 0 0 20px;
+}
+
+.body .left p {
+  font-size: 14px;
+  color: var(--text-grey);
+}
+
+.body .left .blocks .route .login_block {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px 40px;
+  border: 1px solid var(--border-color);
+}
+
+.body .left .blocks .route .login_block h6 {
+  margin-top: 5px;
+  color: var(--text-grey);
+}
+
+.body .left .blocks .route:hover .login_block {
+  border-color: var(--primary-color);
+}
+
+.body .left .blocks .route:hover .login_block h3,
+.body .left .blocks .route:hover .login_block h6 {
+  color: var(--primary-color);
+}
+
+.right {
+  background-image: url("https://www.gpstrategies.com/wp-content/uploads/2020/11/Video-Achieving-Success-in-Your-Oracle-UPK-Migration-Ado_267735643-scaled.jpeghttps: //www.gpstrategies.com/wp-content/uploads/2020/11/Video-Achieving-Success-in-Your-Oracle-UPK-Migration-Ado_267735643-scaled.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=main.css.map */
